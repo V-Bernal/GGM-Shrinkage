@@ -2,7 +2,7 @@
 This script reproduces the results in 
   * Project: EXACT HYPOTHESIS TESTING FOR SHRINKAGE BASED GGM 
   * Authors            : Victor Bernal*, Rainer Bischoff, Victor Guryev, Marco Grzegorczyk, Peter Horvatovich
-  * Date created      : 2018-11-12
+  * Date created      : 2018-11-15
 
 Please cite this paper when you have used it in your publications.
 
