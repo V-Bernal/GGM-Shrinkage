@@ -43,8 +43,8 @@ Empirical null fitting (currently implemented in GeneNet 1.2.13)
 
 # Figures
 The p- values from Empirical null fitting are biased (not uniform)
-![Alt text](https://github.com/V-Bernal/GGM-Shrinkage/Slide1.PNG)
+![Histogram of p values](Slide1.PNG)
 The standard prob density minus the "shrunk" density (larger tails=> more false positives) 
-![Alt text](https://github.com/V-Bernal/GGM-Shrinkage/Slide2.PNG)
+![difference of densities](Slide2.PNG)
 Comparison Positive Predictive Values  (superior Shrunk MLE, agrees with the gold standard) 
-![Alt text](https://github.com/V-Bernal/GGM-Shrinkage/Slide3.PNG)
+![PPV](Slide3.PNG)
