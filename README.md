@@ -25,10 +25,10 @@ shrinkagefunctions.R is the source file with the implementation (i.e. R function
 p= number of variables (e.g. genes)
 n= number of data points
 
-Simulate a GGM with a percentage (etaA) of non-zero edges 
-    sim.pcor<-ggm.simulate.pcor(p, etaA) 
-    Simulate data of length n
-    sim.data<- ggm.simulate.data( n , sim.pcor)
+Simulate a GGM with a percentage (etaA) of non-zero edges  
+    sim.pcor<-ggm.simulate.pcor(p, etaA)  
+    Simulate data of length n 
+    sim.data<- ggm.simulate.data( n , sim.pcor) 
 Reconstruct the GGM from the data with the optimal shrinkage (lambda)
     GGM <- pcor.shrink(sim.data, verbose=TRUE) 
     lambda<-attr(GGM, "lambda") 
