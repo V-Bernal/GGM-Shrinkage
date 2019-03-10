@@ -46,6 +46,6 @@ Empirical null fitting (currently implemented in GeneNet 1.2.13)
 
 # Figures
 The p- values from Empirical null fitting are biased (not uniform).The standard prob density minus the "shrunk" density (larger tails=> more false positives) 
-![Histogram of p values and difference of densities](Slide1.PNG)
+![Histogram of p values and difference of densities](Slide1.png)
 Comparison Positive Predictive Values  (superior Shrunk MLE, agrees with the gold standard) 
-![PPV](Slide2.PNG)
+![PPV](Slide2.png)
