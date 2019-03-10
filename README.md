@@ -5,6 +5,8 @@ This script reproduces the results in
   * Date created      : 2018-11-15
   * Submitted to Bionformatics Journal
 
+Update history : 2019- 03-09
+
 Please cite this paper when you have used it in your publications. 
 
 Prerequisite 
@@ -19,7 +21,7 @@ requires R libraries (CRAN): "GeneNet" , "stats4", "ggplot2", and "Hmisc".
  (iii) the positive predicted values is superior
  As gold standard we will use the computationally expensive Monte Carlo estimation 
 
-GitHUB-GGM_ Shrinkage.R is the R script that reproduces all the analysis.
+GitHUB-GGM_ Shrinkage_v2.R is the R script that reproduces all the analysis.
 shrinkagefunctions.R is the source file with the implementation (i.e. R functions).
 
 # How to use it the functions?
@@ -43,9 +45,7 @@ Empirical null fitting (currently implemented in GeneNet 1.2.13)
     network.test.edges(GGM, fdr=TRUE, plot=FALSE)  
 
 # Figures
-The p- values from Empirical null fitting are biased (not uniform)
-![Histogram of p values](Slide1.PNG)
-The standard prob density minus the "shrunk" density (larger tails=> more false positives) 
-![difference of densities](Slide2.PNG)
+The p- values from Empirical null fitting are biased (not uniform).The standard prob density minus the "shrunk" density (larger tails=> more false positives) 
+![Histogram of p values and difference of densities](Slide1.PNG)
 Comparison Positive Predictive Values  (superior Shrunk MLE, agrees with the gold standard) 
-![PPV](Slide3.PNG)
+![PPV](Slide2.PNG)
