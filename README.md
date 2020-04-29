@@ -4,8 +4,9 @@ This script reproduces the results in
   * Authors            : Victor Bernal*, Rainer Bischoff, Victor Guryev, Marco Grzegorczyk, Peter Horvatovich
   * Date created      : 2018-11-15
   * Submitted to Bionformatics Journal
+  * DOI: [https://doi.org/10.1093/bioinformatics/btz357] (https://doi.org/10.1093/bioinformatics/btz357)
 
-Update history : 2019- 03-09
+Update history : 2020-04-26, 2019- 03-09
 
 Please cite this paper when you have used it in your publications. 
 
